@@ -1,4 +1,4 @@
-import RedEnvelopeApp from "./redEnvelope";
+import RedEnvelopeApp from "./components/redEnvelope";
 
 const App = () => {
   return (

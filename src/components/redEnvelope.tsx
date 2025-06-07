@@ -9,7 +9,7 @@ import {
   useChainId,
 } from "wagmi";
 import { parseEther, formatEther, Address } from "viem";
-import { CONTRACT_CONFIG, isLocalChain, getChainName } from "./wagmi";
+import { CONTRACT_CONFIG, isLocalChain, getChainName } from "../wagmi";
 
 interface Pack {
   owner: Address;
